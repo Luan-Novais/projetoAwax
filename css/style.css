@@ -224,3 +224,121 @@ header{
     box-shadow: 0px 5px 10px #333;
 }
 
+.section-services{
+    display: flex;
+}
+
+.section-service{
+    flex: 1;
+    text-align: center;
+    border-right: 1px solid #333;
+    padding: 15px;
+    
+}
+
+.section-service:first-child{
+    border-left: 1px solid #333;
+
+}
+
+.section-service h4{
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.section-service p {
+    margin-top: 10px;
+    font-size: 13px;
+    color: #999;
+}
+
+.section-projects{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-projects-list{
+    border: 1px solid #CCC;
+    background-color: #EEE;
+    border-radius: 30px;
+    display: inline-block;
+    padding: 0 20px;
+    
+}
+
+.section-projects-list ul,
+.section-projects-list li{
+    list-style: none;
+
+}
+
+.section-projects-list li{
+    display: inline-block;
+    padding: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 13px;
+    color: #555;
+    border-left: 1px solid #CCC;
+    border-bottom: 3px solid #EEE;
+    cursor: pointer;
+}
+
+.section-projects-list li:hover,
+.section-projects-list .active{
+    border-bottom: 3px solid #B28756;
+}
+
+.section-projects-list li:first-child{
+    border-left: 0;
+}
+
+
+.section-projects-photos{
+    width: 100vw;
+    max-width: 1140px;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.section-projects-photo{
+    width: 280px;
+}
+
+.section-projects-photoarea{
+    margin: 10px;
+    width: 260px;
+    height: 160px;
+}
+
+.section-projects-photoarea img{
+    width: inherit;
+    height: inherit;
+}
+
+.section-photo-info{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5); 
+    width: inherit;
+    height: inherit;   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    display: none;
+}
+
+.section-photo-info h5{
+    text-transform: uppercase;
+    font-size: 21px;
+    font-weight: 600;
+}
+
+.section-projects-photoarea:hover .section-photo-info{
+    display: flex;
+}
