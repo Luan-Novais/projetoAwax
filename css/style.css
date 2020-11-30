@@ -342,3 +342,168 @@ header{
 .section-projects-photoarea:hover .section-photo-info{
     display: flex;
 }
+
+.bg-team{
+    background-image: url('../img/bg.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 0;
+}
+
+.section-team-area{
+    background-color: rgba(0, 0, 0, 0.8);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.section-team{
+    overflow: hidden;
+    max-width: 880px;
+    margin: auto;
+}
+
+.section-team .sliders{
+    width: 1000vw;
+    height: 100%;
+}
+
+.section-team .slide{
+    width: 280px;
+    height: 100%;
+    min-height: 300px;
+    display: inline-block;
+    background-color: #FFF;
+    margin-right: 20px;
+    padding: 30px;
+}
+
+.section-team-area .slidearea{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+    flex-direction: column;
+}
+
+.section-team-area .sliders-pointers{
+    width: 100vw;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-team-area .pointer{
+    margin-top: 30px;
+    width: 15px;
+    height: 15px;
+    border: 2px solid #B28756;
+    border-radius: 8px;
+    margin-left: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.section-team-area .pointer.active{
+    background-color: #B28756;
+}
+
+.section-team-photo{
+    width: 150px;
+    height: auto;
+}
+
+.section-team-name{
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 17px;
+    margin-top: 30px;
+}
+
+.section-team-role{
+    margin-top: 5px;
+    font-size: 14px;
+    color:#999
+}
+
+.section-team-social{
+    display: flex;
+    margin-top: 20px;
+}
+
+.section-team-social a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 25px;
+    height: 25px;
+    background-color: #CCC;   
+    border-radius: 13px;
+    margin-right: 10px;
+}
+
+.section-team-social a:hover{
+    background-color: #B28756;
+}
+
+.section-happy-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-happy img{
+    margin-top: 25px;
+}
+
+.section-happy-name{
+    margin-top: 15px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.section-happy-role{
+    margin-top: 3px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.section-happy-aspas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-happy-aspas img{
+    width: 25px;
+    height: 25px;
+}
+
+.section-happy-text{
+    margin-top: 20px;
+    color: #999;
+}
+
+.section-happy .sliders-pointers{
+    height: 20px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-happy .pointer{
+    width: 13px;
+    height: 13px;
+    border: 2px solid #B28756;
+    border-radius: 8px;
+    margin-left: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.section-happy .pointer.active{
+    background-color: #B28756;
+}
