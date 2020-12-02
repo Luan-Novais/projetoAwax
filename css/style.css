@@ -507,3 +507,96 @@ header{
 .section-happy .pointer.active{
     background-color: #B28756;
 }
+
+.empresas-parceiras{
+    border-top: 1px solid #CCC;
+    border-bottom: 1px solid #CCC;
+}
+
+.img-empresas-parceiras{
+    width: 100vw;
+    max-width: 1140px;
+    margin: auto;
+    padding: 30px;
+}
+
+.img-empresas-parceiras img{
+    padding: 0 40px;
+}
+
+.section-prices{
+    display: flex;
+}
+
+.default.prices{
+    background-color: rgb(218, 218, 218);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-prices-content{
+    padding: 20px 50px;
+    background-color: #FFF;
+    margin-right: 20px;
+}
+
+.section-prices-content ul,
+.section-prices-content li{
+    list-style: none;
+}
+
+.section-prices-content h2{
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 15px;
+    text-align: center;
+}
+
+.section-prices-content p{
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 5px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.section-prices-content span{
+    display: block;
+    color: #999;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.section-prices-content ul{
+    margin-top: 20px;
+}
+
+.section-prices-content li{
+    display: block;
+    color: #5C5C5C;
+    text-align: center;
+}
+
+.section-prices-content ul li span{
+    width: 10px;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 9px;
+    border-bottom: 1px solid #000;
+}
+
+.section-prices-content .button {
+    display: inline-block;
+    background-color: rgb(51, 51, 51);
+    color: #FFF;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 20px 50px;
+    margin-top: 30px;
+    border-radius: 25px;
+    margin-bottom: 30px;
+}
