@@ -600,3 +600,59 @@ header{
     border-radius: 25px;
     margin-bottom: 30px;
 }
+
+.section-prices-content .button:hover{
+    background-color: #B28756;
+}
+
+.section-premium-area .slidearea{
+    display: flex;
+    height: 100%;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.section-premium-img,
+.section-premium-desc-text{
+    margin-right: 50px;
+}
+
+.section-premium-desc{
+    margin-top: 30px
+}
+
+.section-premium-desc-text{
+    margin-left: 50px;
+}
+
+.section-premium-desc-check{
+    display: flex;
+    
+}
+
+.section-premium-desc img{
+    margin-right: 20px;
+}
+
+.section-premium-desc h1{
+    text-transform: uppercase;
+    font-weight: 900;
+    color: #000;
+    text-shadow: 0.5px 0.5px #000;
+    
+}
+
+.section-premium-desc-text{
+    line-height: 30px;
+    color: #999;
+}   
+
+.section-premium-desc-text p{
+    display: inline-block;
+}
+
+.section-premium-desc-text span{
+    text-transform: uppercase;
+    line-height: inherit;
+}
