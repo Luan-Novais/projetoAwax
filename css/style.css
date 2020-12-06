@@ -138,6 +138,7 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 .banner .pointer{
@@ -529,7 +530,7 @@ header{
 }
 
 .default.prices{
-    background-color: rgb(218, 218, 218);
+    background-color: rgb(228, 227, 227);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -605,6 +606,13 @@ header{
     background-color: #B28756;
 }
 
+.section-premium-slides{
+    overflow: hidden;
+    max-width: 880px;
+    margin: auto;
+    border-bottom: 1px solid #CCC;
+}
+
 .section-premium-area .slidearea{
     display: flex;
     height: 100%;
@@ -628,7 +636,11 @@ header{
 
 .section-premium-desc-check{
     display: flex;
-    
+    margin-top: 20px;
+}
+
+.section-premium-desc-check:first-child{
+    margin-top: 0;
 }
 
 .section-premium-desc img{
@@ -655,4 +667,50 @@ header{
 .section-premium-desc-text span{
     text-transform: uppercase;
     line-height: inherit;
+}
+
+.section-premium-area .sliders-pointers{
+    width: 100vw;
+    margin-top: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-premium-area .pointer{
+    margin-top: 30px;
+    width: 15px;
+    height: 15px;
+    border: 2px solid #B28756;
+    border-radius: 8px;
+    margin-left: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.section-premium-area .pointer.active{
+    background-color: #B28756;
+}
+
+.btn-premium{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.button-premium{
+    display: inline-block;
+    background-color: #B28756;
+    width: 150px;
+    color: #FFF;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px 30px;
+    margin-top: 30px;
+    border-radius: 20px;
 }
