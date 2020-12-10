@@ -35,6 +35,10 @@ header{
     border-radius: 40px;
 }
 
+.menu-opener{
+    display: none;
+}
+
 .menu{
     flex: 1;
     display: flex;
@@ -128,6 +132,7 @@ header{
     padding: 10px 30px;
     margin-top: 30px;
     border-radius: 20px;
+    cursor: pointer;
 }
 
 .banner .sliders-pointers{
@@ -946,7 +951,12 @@ footer {
 
 @media (min-width: 450px) and (max-width: 800px){
 
+    .logo{
+        margin-left: 30px;
+    }
+
     .menu-opener{
+        display: block;
         width: 45px;
         margin-right: 30px;
     }
@@ -959,6 +969,7 @@ footer {
         height: calc(100vh - 100px);
         top: 100px;
         right: 0;
+        display: none;
     }
 
     .menu ul{
@@ -978,5 +989,290 @@ footer {
         border: 0;
         color: #B28756;
     }   
+
+    .section-abountus{
+        flex-direction: column;
+    }
+
+    .section-abountus-left{
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-bottom: 30px;
+    }
+
+    .section-abountus-right{
+        width: auto;
+    }
+
+    .section-services{
+        flex-wrap: wrap;
+    }
+    .section-service{
+        min-width: 50%;
+        margin-bottom: 30px;
+    }
+
+    .section-service:first-child{
+        border-left: 0;
+    }
+
+    .section-team{
+        max-width: 580px;
+    }
+
+    .img-empresas-parceiras{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .img-empresas-parceiras img{
+        height: 90px;
+    }
+
+    .empresas-parceiras .mobile{
+        display: none;
+    }
+
+    .section-prices{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .section-prices-content{
+        min-width: 45%;
+        margin-right: 0;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+
+    .section-prices-content:last-child{
+        margin-bottom: 0;
+    }
+
+    .section-prices-content .button{
+        margin-left: 50px;
+    }
+
+    .section-premium-area .slidearea{
+        margin-left: 30px
+    }
+
+    .section-some-facts{
+        flex-wrap: wrap;
+    }
+
+    .section-some-fact{
+        min-width: 50%;
+        margin-bottom: 30px;
+    }
+
+    .section-map{
+        padding: 30px;
+    }
+
+    .section-map--area{
+        width: auto;
+    }
+
+    .section-map--info{
+        width: auto;
+    }
+
+    .section-map--info-item{
+        margin-bottom: 20px;
+    }
+
+    .section-map--info-item:last-child{
+        margin-bottom: 0;
+    }
+
+}
+
+
+@media (max-width: 450px){
+
+    .logo{
+        margin-left: 30px;
+    }
+
+    .menu-opener{
+        display: block;
+        width: 45px;
+        margin-right: 30px;
+    }
+
+    nav{
+        position: absolute;
+        z-index: 99;
+        background-color: rgba(0,0,0, 0.9);
+        width: 80vw;
+        height: calc(100vh - 100px);
+        top: 100px;
+        right: 0;
+        display: none;
+    }
+
+    .menu ul{
+        flex-direction: column;
+    }
+
+    .menu li a{
+        text-transform: uppercase;
+        font-weight: bold;
+        height: 60px;
+        font-size: 20px;
+        margin-left: 30px;
+        border: 0;
+    }
+
+    .menu .active a{
+        border: 0;
+        color: #B28756;
+    }   
+
+    .banner h1{
+        font-size: 30px;
+    }
+
+    .banner h2{
+        font-size: 17px;
+    }
+
+
+    .section-abountus{
+        flex-direction: column;
+    }
+
+    .section-abountus-left{
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-bottom: 30px;
+    }
+
+    .section-abountus-right{
+        width: auto;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    .section-abountus-right img{
+        width: 100%;
+    }
+
+    .section-services{
+        flex-wrap: wrap;
+    }
+    .section-service{
+        min-width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .section-service:first-child{
+        border-left: 0;
+    }
+
+    .section-projects-list{
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    .section-projects-photo{
+        width: 320px;
+    }
+
+    .section-projects-photoarea{
+        width: 300px;
+        height: 190px;
+    }
+
+    .section-team{
+        max-width: 280px;
+    }
+
+    .section-happy-text{
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    .img-empresas-parceiras{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .img-empresas-parceiras img{
+        height: 90px;
+    }
+
+    .empresas-parceiras .mobile{
+        display: none;
+    }
+
+    .section-prices{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .section-prices-content{
+        min-width: 90%;
+        margin-right: 0;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+
+    .section-prices-content:last-child{
+        margin-bottom: 0;
+    }
+
+    .section-prices-content .button{
+        margin-left: 46px;
+    }
+
+
+    .section-premium-area .slidearea{
+        flex-direction: column;
+        margin-left: 30px;
+        margin-right: 30px;
+
+    }
+
+    .section-some-facts{
+        flex-wrap: wrap;
+    }
+
+    .section-some-fact{
+        min-width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .redes-sociais-content{
+        flex-direction: column;
+    }
+
+    .redes-sociais-content h3{
+        margin-bottom: 30px;
+        text-align: center;
+    }
     
+    .section-map{
+        padding: 30px;
+    }
+
+    .section-map--area{
+        width: auto;
+    }
+
+    .section-map--info{
+        width: auto;
+    }
+
+    .section-map--info-item{
+        margin-bottom: 20px;
+    }
+
+    .section-map--info-item:last-child{
+        margin-bottom: 0;
+    }
+
 }
